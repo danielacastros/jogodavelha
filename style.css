@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(135deg, #BFE4D3, #B7D0EA); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    height: auto;
+}
+
+#jogo{
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: 120px 120px 120px;  
+    grid-template-rows: 120px 120px 120px;
+}
+
+#jogo div {
+    background-color: #D1D1D1;
+    border: 3px solid #ba4fdd;
+    font-size: 80px;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+    background-color: #525358;
+    margin: 0.95em auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(44, 43, 43);
+    border-bottom: 4px ridge #3f3f43;
+    border-right: 4px ridge #3f3f43;
+}
+
+.botao{
+    width: 200px;
+    margin: .5em;
+    padding: .4em;
+    border-bottom: 3px ridge #ba4fdd;
+    border-right: 3px ridge #ba4fdd;
+    background-color: #D182EC;
+    border-top: none;
+    border-left: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.botao:hover{
+    background-color: #ba4fdd;
+}
+
+.botao:active{
+    border:none;
+}
+
+.textoJogador{
+    display: none;
+}
